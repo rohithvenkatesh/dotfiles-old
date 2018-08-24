@@ -1,0 +1,18 @@
+file that contains any relevant information about my vim/zsh setup in order to replicate if needed
+
+========VIM PLUGINS============
+** Uses Vim-Plug, add plugins to .vimrc
+- Dart
+- Nerdtree
+- Hardmode
+- QuickScope
+- Lightline
+- AutoPairs
+- Incsearch
+
+=======ZSH PLUGINS===========
+** Uses Antibody Plugin Manager, add plugins to .zsh/plugins.txt
+- Minimal
+- Syntax Highlighting
+- Autosuggestions
+
