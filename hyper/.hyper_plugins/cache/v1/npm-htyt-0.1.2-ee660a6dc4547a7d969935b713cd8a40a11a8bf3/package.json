@@ -1,0 +1,25 @@
+{
+  "name": "htyt",
+  "version": "0.1.2",
+  "description": "Play youtube videos in hyperterm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "youtube"
+  ],
+  "author": "Abhishek Jairath <jairath.abhishek@gmail.com> (http://abhishekjairath.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekjairath/htyt"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.75.0",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  }
+}

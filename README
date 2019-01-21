@@ -1,18 +1,29 @@
 file that contains any relevant information about my vim/zsh setup in order to replicate if needed
 
+=======NECESSARY SYMLINKS=======
+** In order to use .dotfiles, clone into ~ and include the following symlinks
+** alias -> original
+- .hushlogin -> .dotfiles/.hushlogin
+- .tmux.conf -> .dotfiles/.tmux.conf
+- .hyper.js -> .dotfiles/hyper/.hyper.js
+- .hyper_plugins -> .dotfiles/hyper/.hyper_plugins
+- .vim -> .dotfiles/vim
+- .vimrc -> .dotfiles/vim/.vimrc
+- .zprofile -> .dotfiles/zsh/.zprofile
+- .zshrc -> .dotfiles/zsh/.zshrc
+- .plugins.txt -> .dotfiles/zsh/plugins.txt
+
 ========VIM PLUGINS============
 ** Uses Vim-Plug, add plugins to .vimrc
 - Dart
 - Nerdtree
-- Hardmode
 - QuickScope
-- Lightline
 - AutoPairs
 - Incsearch
+- Goyo
 
-=======ZSH PLUGINS===========
+=======ZSH PLUGINS=============
 ** Uses Antibody Plugin Manager, add plugins to .zsh/plugins.txt
 - Minimal
 - Syntax Highlighting
 - Autosuggestions
-

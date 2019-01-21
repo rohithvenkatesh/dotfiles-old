@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "name": "hyperminimal",
+    "version": "0.0.9",
+    "description": "Removes the window header from Hyper terminal for more space and less distraction.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jancborchardt/hyperminimal.git"
+    },
+    "keywords": [
+      "hyper",
+      "hyperterm",
+      "design",
+      "clean",
+      "minimal"
+    ],
+    "author": {
+      "name": "Jan-Christoph Borchardt",
+      "email": "hey@jancborchardt.net",
+      "url": "http://jancborchardt.net"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jancborchardt/hyperminimal/issues"
+    },
+    "homepage": "https://github.com/jancborchardt/hyperminimal#readme",
+    "_registry": "npm",
+    "_loc": "/Users/rohithvenkatesh/.hyper_plugins/cache/v1/npm-hyperminimal-0.0.9-1f99f5a1b678c6c5a0f86a7eb8ad884a81ae1b8f/package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# [hyperminimal](https://www.npmjs.com/package/hyperminimal)\n\n**Removes the window header from [Hyper terminal](https://hyper.is) for more space and less distraction.**\n\nBefore & after, minimal & clean interface:\n\n![](hyperminimal.png)\n\nAlso works nicely with tabs, as it only removes the extra title bar:\n\n![](hyperminimal-tabs.png)\n\nIf you like the extension, please [retweet & like](https://twitter.com/jancborchardt/status/809756895686823936) ❤️ :)\n\n## How to use\n\nAdd `hyperminimal` to `plugins` in `~/.hyper.js`.\n\n### Ubuntu & Elementary\n\nTo move the window, simply hold the Super/Windows key and drag it anywhere with the cursor.\n\n### macOS\n\nTo move the window, hover over the edge of the window so the resize arrow appears, then drag _perpendicular_ to the direction of the resize arrow. For example, when hovering over the left or right edge, drag vertically instead of horizontally.\n\n### Windows\n\nIf you use Windows and know how to move the window without the top bar, please let us know so we can add it here. :) Simply comment on [the issue about it](https://github.com/jancborchardt/hyperminimal/issues/12).\n\n## Other recommended plugins\n\n- [hyper-dark-scrollbar](https://github.com/moso/hyper-dark-scrollbar)\n- [hypercwd](https://github.com/hharnisc/hypercwd)\n- [hyper-blink](https://github.com/amio/hyper-blink)\n- [hyperterm-alternatescroll](https://github.com/lkzhao/hyperterm-alternatescroll)\n- [hyperterm-one-light](https://github.com/andrepolischuk/hyper-one-light/)\n- [hyperborder](https://github.com/webmatze/hyperborder)\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2016 Jan-Christoph Borchardt, http://jancborchardt.net\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperminimal/-/hyperminimal-0.0.9.tgz#1f99f5a1b678c6c5a0f86a7eb8ad884a81ae1b8f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperminimal/-/hyperminimal-0.0.9.tgz",
+    "hash": "1f99f5a1b678c6c5a0f86a7eb8ad884a81ae1b8f",
+    "registry": "npm",
+    "packageName": "hyperminimal"
+  },
+  "registry": "npm",
+  "hash": "1f99f5a1b678c6c5a0f86a7eb8ad884a81ae1b8f"
+}

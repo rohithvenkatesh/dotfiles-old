@@ -1,0 +1,46 @@
+{
+  "manifest": {
+    "name": "htyt",
+    "version": "0.1.2",
+    "description": "Play youtube videos in hyperterm.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "hyper",
+      "hyperterm",
+      "youtube"
+    ],
+    "author": {
+      "name": "Abhishek Jairath",
+      "email": "jairath.abhishek@gmail.com",
+      "url": "http://abhishekjairath.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/abhishekjairath/htyt"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "request": "^2.75.0",
+      "xmldom": "^0.1.22",
+      "xpath": "0.0.23"
+    },
+    "_registry": "npm",
+    "_loc": "/Users/rohithvenkatesh/.hyper_plugins/cache/v1/npm-htyt-0.1.2-ee660a6dc4547a7d969935b713cd8a40a11a8bf3/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# htyt\n\n[Hyper](https://hyper.is/) plugin to search & play youtube videos.\n\n\n### How to use\n\n[Install Hyper](https://hyper.is/#installation) and add `htyt` to `plugins`\nin `~/.hyper.js`.\n\n \n- ``` htyt.\"<video name>\"``` to search a video on youtube and render it within Hyper\n- Focus on the Hyper window and Ctrl + C to quit.\n\n![Demo](https://www.dropbox.com/s/39hygw4kdke9iqj/htyt_demo2%20%281%29.gif?dl=1)\n\n\n### License\n\nMIT\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/htyt/-/htyt-0.1.2.tgz#ee660a6dc4547a7d969935b713cd8a40a11a8bf3",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/htyt/-/htyt-0.1.2.tgz",
+    "hash": "ee660a6dc4547a7d969935b713cd8a40a11a8bf3",
+    "registry": "npm",
+    "packageName": "htyt"
+  },
+  "registry": "npm",
+  "hash": "ee660a6dc4547a7d969935b713cd8a40a11a8bf3"
+}
