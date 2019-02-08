@@ -5,6 +5,11 @@
 	let g:neodark#terminal_transparent = 1
 	let g:neodark#solid_vertsplit = 1
 
+" for italics "
+let &t_ZH="\e[3m"
+let &t_ZR="\e[23m"
+highlight Comment cterm=italic
+
 " general style stuff "
 	syntax on "for the colorful text!
 	set number relativenumber belloff=all
@@ -35,7 +40,7 @@
 			map /  <Plug>(incsearch-forward)
 			map ?  <Plug>(incsearch-backward)
 			map g/ <Plug>(incsearch-stay)
-	"	Plug 'itchyny/lightline.vim' "for cool bottom part
+		"Plug 'itchyny/lightline.vim' "for cool bottom part
 	"		set laststatus=2 "for it to actually show
 	"		set noshowmode "to disable --INSERT-- and --NORMAL-- at the bottom
 	call plug#end() "end of plug

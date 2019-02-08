@@ -25,5 +25,7 @@ function open_tmux() {
 	zle accept-line
 }
 zle -N open_tmux
-bindkey "^[a" open_tmux 
+bindkey "^[a" open_tmux
 
+# opam configuration
+test -r /Users/rohithvenkatesh/.opam/opam-init/init.zsh && . /Users/rohithvenkatesh/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
