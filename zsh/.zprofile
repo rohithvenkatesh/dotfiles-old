@@ -3,10 +3,12 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin
 PATH="/usr/local/bin:$PATH"
 PATH="$PATH:/usr/local/sbin"
 PATH="$PATH:$HOME/bin"
-PATH="$PATH:/Users/rohithvenkatesh/Desktop-2/flutterdev/flutter/bin"
 PATH="/usr/local/share/python/:$PATH"
-PATH="/Users/rohithvenkatesh/miniconda3/bin:$PATH"
-PATH="/Users/rohithvenkatesh/2Desktop/miniconda-packagemanager/bin:$PATH"
+
+# flutter
+PATH="$PATH:/Users/rohithvenkatesh/2Desktop/work/flutter/bin"
+PATH="$PATH":"/Users/rohithvenkatesh/2Desktop/work/flutter/.pub-cache/bin"
+PATH="$PATH":"/Users/rohithvenkatesh/2Desktop/work/flutter/bin/cache/dart-sdk/bin"
 
 echo -ne "\e]1; \a"
 
@@ -19,3 +21,5 @@ export PATH
 # The original version is saved in .zprofile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
+
+export PATH="$HOME/.cargo/bin:$PATH"

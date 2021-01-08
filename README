@@ -5,8 +5,6 @@ file that contains any relevant information about my vim/zsh setup in order to r
 ** alias -> original
 - .hushlogin -> .dotfiles/.hushlogin
 - .tmux.conf -> .dotfiles/.tmux.conf
-- .hyper.js -> .dotfiles/hyper/.hyper.js
-- .hyper_plugins -> .dotfiles/hyper/.hyper_plugins
 - .vim -> .dotfiles/vim
 - .vimrc -> .dotfiles/vim/.vimrc
 - .zprofile -> .dotfiles/zsh/.zprofile
@@ -15,8 +13,6 @@ file that contains any relevant information about my vim/zsh setup in order to r
 
 ========VIM PLUGINS============
 ** Uses Vim-Plug, add plugins to .vimrc
-- Dart
-- Nerdtree
 - QuickScope
 - AutoPairs
 - Incsearch

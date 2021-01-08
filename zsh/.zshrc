@@ -29,3 +29,8 @@ bindkey "^[a" open_tmux
 
 # opam configuration
 test -r /Users/rohithvenkatesh/.opam/opam-init/init.zsh && . /Users/rohithvenkatesh/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export NODE_PATH='/usr/local/lib/node_module'
+export PATH="$PATH:$HOME/.rvm/bin"
+
